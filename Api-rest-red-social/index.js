@@ -1,4 +1,11 @@
+//Importar dependencias:
+const connection = require("./database/connection");
+
+//Mensaje de Bienvenida:
+console.log("Api Node para red social arrancada!!")
+
 //Conexion a base de datos:
+connection();
 
 // Crear servidor Node:
 
